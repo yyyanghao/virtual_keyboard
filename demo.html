@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/virKeyborad.css"/>
+		<style>
+			body{
+			     background-color: deepskyblue;		
+			}
+			#keyborad{
+				width: 500px;
+				height: 40px;
+				display: block;
+				margin:300px auto 0;
+				border: 1px solid gainsboro;
+				border-radius:10px ;
+				font-size:20px ;
+				padding:5px ;
+			}
+		</style>
+	</head>
+	<body>
+		<input type="text" name="keyborad" id="keyborad" value="" />
+		
+		
+		<script type="text/javascript" src="js/jquery-2.1.0.js" ></script>
+		<script type="text/javascript" src="js/virKeyborad.js" ></script>
+		<script>
+			//需要键入虚拟键盘的input的id
+			$('#keyborad').virkeyborad({
+				//设置键盘背景颜色，默认白色；
+				//color:"#000000",
+				//设置键盘字体颜色，默认蓝色；
+				fontColor:"#ffffff",
+				//设置按键边框颜色默认绿黄色；
+				borderColor:"#ffffff",
+				//设置背景图片，默认无图片,背景最好为800x300px
+				img:'url(img/123.jpg)'
+			})
+		</script>
+	</body>
+</html>

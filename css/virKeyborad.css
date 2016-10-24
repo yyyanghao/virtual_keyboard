@@ -1,0 +1,66 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	
+}
+.vir_container{
+	width: 800px;
+	height: 300px;
+	border: 1px solid gainsboro;
+	position: absolute;
+	border-radius:5px;
+	display: none;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.vir_key{
+	width: 45px;
+	height: 45px;
+	border: 1px solid greenyellow;
+	display: inline-block;
+	text-decoration: none;
+	text-align: center;
+	line-height: 45px;
+	margin-left: 5px;
+	margin-top: 10px;
+	font-family: "微软雅黑";
+	box-shadow: 1px 1px 1px 1px gainsboro;
+}
+.vir_key:nth-child(14){
+	width: 110px;
+}
+.vir_key:nth-child(15){
+	width: 70px;
+}
+.vir_key:nth-child(28){
+	width: 85px;
+}
+.vir_key:nth-child(29){
+	width: 85px;
+}
+.vir_key:nth-child(41){
+	width: 123px;
+}
+.vir_key:nth-child(42){
+	width: 120px;
+}
+.vir_key:nth-child(53){
+	width: 140px;
+}
+.vir_key:nth-child(54){
+	width: 60px;
+}
+.vir_key:nth-child(55){
+	width: 60px;
+}
+.vir_key:nth-child(56){
+	
+	width: 520px;
+}
+.vir_key:nth-child(57){
+
+	width: 60px;
+}
+.vir_key:nth-child(58){
+	width: 60px;
